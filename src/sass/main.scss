@@ -1,0 +1,50 @@
+$theme-colors: (
+  "primary":    #8445A4,
+  "secondary":  #3B4755,
+  "success":    #719ED6,
+  "info":       #D5C5DD,
+  "light":      #DFDFDF,
+  "dark":       #292929
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #719ED6, #8445A4 );
+}
+
+.questionBox {
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 5px solid #719ED6;
+}
+
+.beginButton {
+  text-decoration: none;
+  color: white;
+}
+
+.beginButton:hover {
+  text-decoration: none;
+  color: white;
+}
